@@ -1,0 +1,695 @@
+*{
+    margin: 0;
+    font-family: arial;
+    
+}
+.navbar{
+    height: 80px;
+    background-color: #0f1111;
+    color: white;
+    display:flex ;
+    align-items: center;
+    
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+}
+.logo{
+    background-image: url("amazon.png");
+    background-size: cover;
+    height: 35px;
+    width: 100px;
+    
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+
+}
+p.e{
+    font-size: 0.80rem;
+    margin-left: 23px;
+    color: wheat;
+}
+.add-icon{
+    margin-left: 10px;
+}
+.para{
+    margin-left: 9px;
+}
+p.j{
+    font-size: 1rem;
+    margin-left: 6px;
+    margin-top: 2.5px;
+    font-family: arial;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 750px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 15px;    
+}
+
+select.him{
+    background-color: rgb(218, 211, 211);
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    
+    
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+    
+}
+.Search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: rgb(238, 96, 45);
+     border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+.right{
+    display: flex;
+    
+    
+}
+.fore{
+    font-size: 18px;
+    display: flex;
+    margin-left: 10px;
+    align-items:center ;
+    margin-top: 7px;
+    margin-right: -45px;
+}
+.sign-in{
+    margin-right: 40px;
+}
+
+
+.arrow{
+    margin-top: 4px;
+    margin-left: 3px;
+}
+
+p.g{
+    font-size: 13px;
+    margin-left: 70px;
+}
+p.f{
+    font-size: 15.3px;
+    font-family: sans-serif;
+    margin-left: 70px;
+    
+}
+.down{
+    margin-left: 169px;
+    margin-top: -16px;
+    font-size: 15px;
+}
+p.h{
+    font-size: 13px;
+    font-weight: bold;
+}
+p.j{
+    font-size: 15px;
+    
+    margin-left: -4px;
+    font-weight: bold;
+}
+.cart{
+    
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 7px;
+}
+p.l{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.header{
+    background-color: green;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav-search:hover{
+    border: 2px solid orangered
+
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.panel{
+    height: 40px;
+    background-color: #18324a;
+    display: flex;
+}
+.panel-all{
+    color: white;
+    margin-top: 9px;
+    margin-left: 20px;
+    font-family: "arial , sans-sarif";
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+    color: white;
+    font-family: "arial";
+    
+
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+    margin-top: 9px;
+}
+.panel-deals{
+    font-size: 15px;
+    font-weight: 700%;
+    color: white;
+    margin-top: 7px;
+}
+.hero-section{
+    background-image: url("back.png");
+    height: 250px;
+    background-size: cover;
+    
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+    background-color: #e2e7e2;
+    height: 940px;
+}        
+.box{
+    /*border: 2px solid black;*/ 
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+p.y{
+    color: blue;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+} 
+.two-img{
+    height:120px;
+    width: 130px;
+    margin-top: 50px;
+}
+.three-img{
+    height:120px;
+    width: 130px;
+    margin-left: 140px;
+    margin-top: -142px;
+}
+
+.fore-img{
+    height:120px;
+    width: 130px;
+    margin-top: 10px;
+    
+}
+p.huge{
+    margin-top: 5px;
+    font-style: oblique;
+}
+p.her{
+    margin-left: 140px;
+    margin-top: 5px;
+    font-style: oblique;
+}
+p.hig{
+    margin-top: 5px;
+    font-style: oblique;
+}
+.five-img{
+    height:120px;
+    width: 130px;
+    margin-left: 140px;
+    margin-top: -144px;
+
+  }
+p.his{
+    margin-left: 135px;
+    font-style: oblique;
+}
+p.hus{
+    margin-left: 80px;
+    margin-top: 18px;
+    color: blue;
+    font-style: oblique;
+}
+.six-img{
+    height: 114px;
+    width: 220px;
+    margin-left: -40px;
+    margin-top: 20px;
+}
+p.has{
+    margin-top: 5px;
+    font-style: oblique;
+}
+.seven-img{
+    height: 114px;
+    width: 220px;
+    margin-top: -140px;
+    margin-left: 120px;
+}
+p.hack{
+    margin-left: 198px;
+    font-style: oblique;
+}
+.eight-img{
+    height: 114px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: -23px;
+}
+p.hum{
+    margin-left: -2px;
+    font-style: oblique;
+    margin-top: -5px;
+    
+}
+
+.nine-img{
+    height: 114px;
+    width: 200px;
+     margin-top: -130px; 
+    margin-left: 130px;
+}
+p.hum{
+    margin-left: 170px;
+    font-style: oblique;
+    margin-top: -5px;
+    
+}
+p.hij{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-style: oblique;
+    color: blue;
+}
+.ten-img{
+    height: 160px;
+    width: 278px;
+}
+p.sun{
+    font-style: oblique;
+    margin-top: 5px;
+}
+.elev-img{
+    height: 70px;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: -9px;
+}
+.twel-img{
+    height: 70px;
+    width: 100px;
+    margin-left: 95px;
+    margin-top: -95px;
+}
+p.see{
+    font-style: oblique;
+    margin-top: 5px;
+    margin-left: 90px;
+
+}
+p.hug{
+    margin-top: 5px;
+    font-style: oblique;
+}
+.thir-img{
+    height: 70px;
+    width: 90px;
+    margin-left: 202px;
+    margin-top: -87px;
+}
+p.tum{
+    margin-left: 198px;
+    margin-top: 5px;
+    font-style: oblique;
+}
+p.mil{
+margin-left: 90px;
+margin-top: 40px;
+font-style: oblique;
+color: blue;
+}
+
+.box2{
+ 
+    background-color:#e2e7e2;
+    
+    margin-top: 30px;
+    
+    height: 270px;
+}
+    
+    
+.shopping{
+    background-color:white;
+    margin-left: 15px;
+    margin-right: 10px;
+    height: 90px;
+    margin-top: 30px;
+}
+img.ai{
+    margin-left: 20px;
+}
+img.ay{
+    height: 40px;
+    margin-top:-90px ;
+    margin-left: -70px;
+}
+h2.with{
+    font-size: 20px;
+    
+    margin-left: 10px;
+    font-style: oblique;
+    color: whit;
+    
+}
+img.au{
+    margin-left: 1160px;
+    margin-top: -200px;
+}
+p.cool{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+p.ex{
+    color: blue;
+    margin-left: 20px;
+}
+img.soub{
+    margin-top: 10px;
+}
+.four{
+    color: yellowgreen;
+    margin-left: 20px;
+}
+.page{
+    color: black;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+p.arm{
+    color: black;
+}
+.fog{
+    background-color: wheat;
+    border-top: 1px solid gray;
+    margin-top: -55px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 590px;
+
+}
+.sour{
+    margin-left: -290px;
+    margin-top: 55px;
+}
+p.er{
+    margin-left: -273px;
+    color: blue;
+}
+.fox{
+    margin-top: 330px;
+    margin-left: -270px;
+    color: yellowgreen;
+}
+p.ei{
+    margin-left: 40px;
+    margin-top: 310px;
+    color: blue;
+}
+p.am{
+    margin-top: 350px;
+    margin-left: -170px;
+}
+img.souce{
+    margin-left: 600px;
+    margin-top: 83px;
+}
+p.eu{
+    margin-left: 640px;
+    color: blue;
+}
+p.ej{
+    margin-left: 800px;
+    margin-top: -35px;
+    color: blue;
+}
+.forest{
+    margin-left: 640px;
+    margin-top: 3px;
+    color: yellowgreen;
+}
+p.aim{
+    margin-left: 640px;
+    margin-top: 20px;
+}
+img.soon{
+    margin-left: 900px;
+    margin-top: 246px;
+}
+p.em{
+    margin-left: 930px;
+    margin-top: 10px;
+    color: blue;
+}
+p.el{
+    margin-left: 1090px;
+    margin-top: -33px;
+    color: blue;
+}
+.for{
+    margin-left: 930px;
+    margin-top: 3px;
+    color: yellowgreen;
+}
+p.ache{
+    margin-left: 930px;
+    margin-top: 20px;
+}
+.eny{
+    border-top: 1px solid black;
+    
+    margin-top: 30px;
+}
+p.eng{
+    margin-left: 480px;
+    margin-top: 80px;
+}
+button.big{
+    margin-left: 490px;
+    margin-top: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    
+}
+p.kick{
+    margin-left: 520px;
+    font-style: oblique;
+    font-size: 15px;
+}
+p.ball{
+    margin-left:630px ;
+    margin-top: -16px;
+    font-size: 14px;
+    color: blue;
+}
+.bor{
+    background-color: #485769;
+    height: 66px;
+}
+hr{
+    margin-top: 40px;
+}
+p.back{
+    margin-left: 600px;
+    margin-top: -30px;   
+    color: white;
+    font-style: oblique;
+}
+.pop{
+    background-color: #232F3E;
+    height: 500px;
+}
+p.body{
+    margin-left: 200px;
+    margin-top: -430px;
+    
+    font-weight: bold;
+    color: white;
+}
+p.p-all{
+margin-left:200px ;
+line-height: 30px;
+font-style: italic;
+color: white;
+margin-top: 10px;
+
+
+}
+
+p.boby{
+    margin-left: 420px;
+    margin-top: -206px;
+    font-weight: bold;
+    color: white;
+}
+
+p.p-aim{
+    margin-left:420px ;
+    line-height: 30px;
+    font-style: italic;
+    color: white;
+    margin-top: 10px;
+    
+    }
+p.nose{
+    margin-left:690px ;
+    margin-top: -300px;
+    font-weight: bold;
+    color: white;
+}
+
+p.p-are{
+    margin-left:690px ;
+    line-height: 30px;
+    font-style: italic;
+    color: white;
+    margin-top: 10px;
+}
+p.lip{
+    margin-left:1000px ;
+    margin-top: -150px;
+    font-weight: bold;
+    color: white;
+}
+
+p.p-aache{
+    margin-left:1000px ;
+    line-height: 30px;
+    font-style: italic;
+    color: white;
+    margin-top: 10px;
+}
+.eamil{
+    margin-top: -300px;
+}
+img.ama{
+    height: 25px;
+ margin-top: 130px;
+ margin-left: 410px;   
+}
+.all-item{
+    display: flex;
+}
+.all-button{
+    display: flex;
+}
+.butt-1{
+    margin-top: 125px;
+    margin-left: 30px;
+    border: 0.5px solid white;
+    padding: 8px;
+}
+.fa-globe{
+    color: white;
+    font-size: 15px;
+}
+.fa-arrows-up-down{
+    color: white;
+    font-size:13px ;
+}
+p.fa{
+    color: white;
+    font-size: 14px;
+}
+.butt-2{
+    margin-top: 124px;
+    margin-left: 10px;
+    border: 0.5px solid white;
+    padding: 0px 7px;
+    
+}
+p.fe{
+    margin-left: 7px;
+    margin-top: 11px;
+    color: white;
+}
+p.fz{
+    margin-top: -16px;
+    color: white;
+    font-family: "arial";
+    font-weight: bold;
+    margin-left: 28px;
+    font-size: 15px;
+}
+.butt-3{
+    margin-top: 125px;
+    border: 0.5px solid white ;
+    margin-left: 10px;
+    padding: 7px;
+}
+.fa-flag-usa{
+margin-left: 6px;
+font-size: 20px;
+color: white;
+}
+
+p.fi{
+    margin-top: -20px;
+    margin-left: 43px;
+    color: rgb(220, 214, 214);
+    font-family: "arial";
+    font-weight: bold;
+}
